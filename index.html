@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Matemático</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="jogo">
+        <h1>Desafio Matemático</h1>
+        <p>Responda às contas e conquiste pontos!</p>
+
+        <h3 id="progresso">Pergunta 1 de 10</h3>
+        <h2 id="pergunta">Quanto é 5 + 3?</h2>
+
+        <div id="alternativas">
+            <button onclick="responder(8)">8</button>
+            <button onclick="responder(6)">6</button>
+            <button onclick="responder(10)">10</button>
+        </div>
+
+        <p id="mensagem"></p>
+        <h3>Pontuação: <span id="pontos">0</span></h3>
+
+        <button id="reiniciar" onclick="reiniciarJogo()">
+            Jogar novamente
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

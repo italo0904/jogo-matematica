@@ -1,0 +1,63 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: #e8edff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.jogo {
+    background: white;
+    width: 350px;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 15px #0002;
+}
+
+h1 {
+    color: #3f51b5;
+}
+
+#pergunta {
+    margin: 25px 0;
+}
+
+#alternativas button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    background: #3f51b5;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+#alternativas button:hover {
+    background: #283593;
+}
+
+#mensagem {
+    font-weight: bold;
+    min-height: 20px;
+}
+
+#reiniciar {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #16a085;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+#reiniciar:hover {
+    background: #117864;
+}
